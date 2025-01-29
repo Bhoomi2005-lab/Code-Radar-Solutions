@@ -6,4 +6,5 @@ int main()
     scanf("%f",&a);
     b=3.14*(a*a);
     printf("Area: %.2lf",b);
+    return 0;
 }
