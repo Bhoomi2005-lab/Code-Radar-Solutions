@@ -5,11 +5,11 @@ int main()
     scanf("%d",&a);
     if(a%2==0)
     {
-        print("Even");
+        printf("Even");
     }
     else
     {
-        print("Odd");
+        printf("Odd");
     }
     return 0;
 }
