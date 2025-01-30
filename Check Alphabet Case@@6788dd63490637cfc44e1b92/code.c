@@ -3,7 +3,7 @@ int main()
 {
     char b;
     int a;
-    scanf("%d",&b);
+    scanf("%c",&b);
     a=(int)b;
     if((a>=65)&&(a<=90))
     {
