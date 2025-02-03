@@ -9,9 +9,12 @@ int main()
         printf("Profit");
 
     }
-    else
+    else if(c<a)
     {
         printf("Loss");
+    }
+    else{
+        printf("No Profit No Loss");
     }
 
 }
