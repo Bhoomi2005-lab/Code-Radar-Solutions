@@ -7,7 +7,7 @@ int main()
     for(int i=1;i<=n;++i)
     {
         int p=p*i;
-        printf("n * i = %d\n",p);
+        printf("%d x %d = %d\n",n,i,p);
     }
     return 0;
 }
