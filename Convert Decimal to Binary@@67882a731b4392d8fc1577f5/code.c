@@ -4,7 +4,7 @@ int main()
     int a;
     scanf("%d",&a);
     char  s1[100];
-    a1=a;
+    int a1=a;
     while(a1>a)
     {
         if(a1%2==0)
