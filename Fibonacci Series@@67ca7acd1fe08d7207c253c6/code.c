@@ -1,17 +1,24 @@
 #include<stdio.h>
- void fibo(int a){
-     int first=0;
-     int second=1;
-     int next;
-     for (int i=1;i<=a;i++){
-         next=first;
-         first=second;
-                  second=next+first;
-         printf("%d ",next);
-     }
+
+void fibo(int a) {
+    int first = 0;
+    int second = 1;
+    int next;
+
+    // Print the first Fibonacci number if the input is 1
+    if (a >= 1) printf("%d ", first);
+
+    for (int i = 2; i <= a; i++) {
+        next = first + second;
+        first = second;
+        second = next;
+        printf("%d ", next);
     }
-    int main(){
-        int c;
-        scanf("%d",&c);
-        fibo(c);
-   }
+}
+
+int main() {
+    int c;
+    scanf("%d", &c);
+    fibo(c);
+    return 0;
+}
